@@ -1,0 +1,33 @@
+.Story{
+    width: 120px;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+   
+    border-radius: 10px;
+    box-shadow: 0px 5px 17px -7px rgba(0,0,0, 0.75);
+    padding: 10px;
+    position: relative;
+}
+
+.Story:not(:last-child){
+    margin-right: 10px;
+}
+
+.Story:hover{
+    transform: scale(1.02 );
+}
+
+.Story_avatar {
+    border: 3px solid #2d73d2;
+
+}
+
+.Stroy__title {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}

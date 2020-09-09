@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.facebook-clone-youtube-tutorial {
+    background-color: #f1f2f5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.facebook-clone-youtube-tutorial__body {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Post__options {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.Post__option {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Post__option > .MuiSvgIcon-root{ 
+    color: #bebcc0;
 }
+
